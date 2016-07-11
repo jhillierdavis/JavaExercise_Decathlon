@@ -1,4 +1,4 @@
-package junit;
+package com.jhdit.testing.junit;
 
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;

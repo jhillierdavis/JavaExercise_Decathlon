@@ -1,3 +1,7 @@
+package com.jhdit.decathlon.scoring;
+
+import com.jhdit.decathlon.scoring.MeasurementProcessor;
+
 import java.util.*;
 import java.util.stream.Collectors;
 

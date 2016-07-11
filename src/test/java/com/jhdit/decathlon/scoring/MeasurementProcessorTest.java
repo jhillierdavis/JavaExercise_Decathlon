@@ -1,3 +1,5 @@
+package com.jhdit.decathlon.scoring;
+
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Rule;

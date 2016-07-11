@@ -1,4 +1,6 @@
-import junitparams.Parameters;
+package com.jhdit.decathlon.scoring;
+
+import com.jhdit.decathlon.scoring.EventProcessor;
 import org.junit.Test;
 
 import java.util.List;
