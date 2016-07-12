@@ -11,7 +11,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
- * Unit tests for MeasurementProcessor.
+ * Unit tests for MeasurementProcessor
  */
 
 @RunWith(JUnitParamsRunner.class)
