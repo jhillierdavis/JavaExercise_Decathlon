@@ -8,6 +8,10 @@ import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+/**
+ * JUnit 4 verification tests.
+ */
+
 public class Junit4SetupTest {
  
     private Collection collection;
