@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 /**
- *
+ * Unit tests for EventProcessor
  */
 
 public class EventProcessorTest {
