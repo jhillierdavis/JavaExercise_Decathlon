@@ -1,7 +1,7 @@
 package com.jhdit.decathlon.scoring;
 
 /**
- *
+ *  Provides algorithm for scoring running events in the decathlon.
  */
 
 class RunningScorer extends DefaultScorer {

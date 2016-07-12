@@ -1,7 +1,5 @@
 package com.jhdit.decathlon.scoring;
 
-import com.jhdit.decathlon.scoring.MeasurementProcessor;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -31,11 +29,6 @@ class EventProcessor {
                 // .map( Map.Entry::getKey )
                 .map( e -> this.format(e.getKey(), e.getValue() ) )
                 .collect(Collectors.toList());
-/*
-        for (String str: resultsList)   {
-            System.out.println(str);
-        }
-*/
         return resultsList;
     }
 
