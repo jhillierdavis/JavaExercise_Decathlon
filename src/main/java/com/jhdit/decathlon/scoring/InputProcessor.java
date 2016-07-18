@@ -11,6 +11,9 @@ import java.util.List;
 
 class InputProcessor {
 
+    private static final String OCTOTHORPE = "#";
+    private static final String DOUBLE_OCTOTHORPE = "##";
+
     List<String> process(List<String> input)    {
         List<String> resultsList = new ArrayList<>();
 
@@ -46,11 +49,11 @@ class InputProcessor {
     }
 
     private boolean isNewEvent(String str)    {
-        return "#".equals(str);
+        return OCTOTHORPE.equals(str);
     }
 
     private boolean isTerminator(String str)  {
-        return "##".equals(str);
+        return DOUBLE_OCTOTHORPE.equals(str);
     }
 
 }
